@@ -1,7 +1,12 @@
 .home {
     height: 100vh;
 
-    .icon {
-        background-size: 20px 20px;
-    }
+}
+
+.image {
+    background-image: url('../../images/me-icon.svg');
+    height: 200px;
+    width: 200px;
+    background-size: 200px;
+    margin: 5rem;
 }
