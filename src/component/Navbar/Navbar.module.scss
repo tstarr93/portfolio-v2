@@ -1,7 +1,10 @@
 .navbar {
     display: flex;
     justify-content: space-between;
-    margin: 2rem;
+    margin: 0 2rem 2rem 2rem;
+    position: fixed;
+    top: 0;
+    width: 95%;
 }
 
 .navIcon {

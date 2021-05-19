@@ -1,11 +1,12 @@
 import React from "react";
 import styles from "./Home.module.scss";
-import Navbar from './component/Navbar';
 
 const Home = () => {
   return (
     <>
-      <Navbar></Navbar>
+    <section className={styles.home}>
+      <img src="me-icon.svg" alt="tim starr" className={styles.icon}/>
+    </section>
     </>
   );
 };
