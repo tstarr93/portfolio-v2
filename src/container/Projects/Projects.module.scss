@@ -1,0 +1,71 @@
+.break {
+    background-image: url('../../images/break.svg');
+    height: 10rem;
+    width: 29%;
+    background-size: 400px;
+    margin: auto;
+    align-self: center;
+    justify-self: center;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    // align-items: center;
+    margin-left: 4rem;
+    margin-top: 8rem;
+
+    .text {
+        margin-top: 4rem;
+        display: flex;
+        flex-direction: column;
+        writing-mode: sideways-rl;
+        width: 10vw;
+    }
+
+    h2 {
+        font-size: 6rem;
+        writing-mode: vertical-lr;
+    }
+
+    h3 {
+        width: 33vw;
+        z-index: 1;
+        margin-top: 2rem;
+        border-radius: 20px;
+    }
+
+    .projectIcon {
+      background-image: url('../../images/leviathan.svg');
+      height: 320px;
+      width: 425px;
+      background-size: 500px;
+      transform: scaleX(-1);
+      margin-left: 6rem;
+    }
+}
+
+main {
+    margin-top: 3rem;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 8rem;
+
+    .project1 {
+        height: 30vh;
+        width: 50vw;
+        border: 1px solid black;
+        margin-bottom: 4rem;
+    }
+
+    .project2 {
+        height: 30vh;
+        width: 50vw;
+        border: 1px solid #4a4a4a;
+        margin-bottom: 4rem;
+    }
+}
+
